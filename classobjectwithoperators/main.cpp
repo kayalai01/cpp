@@ -33,7 +33,16 @@ using namespace std;
          cin >> v7 >> v8;
          cout << "Enter Total value:" << (v7/v8) << endl;
      }
+void modulus()
+
 };
+void operatorexampleclass :: modulus()
+{
+int v9,v10,totalvalue;
+cout << "Enter V9" << endl << "Enter V10" << endl ;
+cin >> v9 >> v10;
+cout << "Enter Total value:" << (v9%v10) << endl;
+}
 
 
 int main()
@@ -45,5 +54,6 @@ int main()
     oec.subraction();
     oec.multiplication();
     oec.Division();
+   oec . modulus();
     return 0;
 }
